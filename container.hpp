@@ -20,7 +20,7 @@ class Container {
         void set_sort_function(Sort* sort_function); // set the type of sorting algorithm
 
         /* Pure Virtual Functions */
-        // push the top pointer of the tree into container
+        // push the top pointer of the tree into container//
         virtual void add_element(Base* element) = 0;
         // iterate through trees and output the expressions (use stringify())
         virtual void print() = 0;
